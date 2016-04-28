@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#DD000000"
+        android:endColor="#88000000"
+        android:angle="45"/>
+    <corners android:radius="8dp" />
+</shape>
+    <!-- taken from http://stackoverflow.com/questions/5633542/changing-shape-of-textview-in-android-frameworks
+    and I used colorpicker.com to figure out the hex values I wanted-->

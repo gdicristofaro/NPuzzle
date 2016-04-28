@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/ImagePickerText"
+        android:text="Pick an Image..."
+        android:color="#ffffff"
+        android:background="@drawable/listview_gradient"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <ListView
+        android:divider="#18A2D6"
+        android:dividerHeight="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:id="@+id/imagepicker_listview"/>
+</LinearLayout>
