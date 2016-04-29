@@ -44,10 +44,10 @@ public class ImagePicker extends Activity {
     private ArrayList<PictureInfo> GetImages(){
     	ArrayList<PictureInfo> results = new ArrayList<PictureInfo>();
 
-    	results.add(new PictureInfo("The Violin", R.mipmap.violin));
-    	results.add(new PictureInfo("Miles Davis", R.mipmap.miles));
-    	results.add(new PictureInfo("The Piano", R.mipmap.piano));
-    	results.add(new PictureInfo("Music Room", R.mipmap.musicclub));
+    	results.add(new PictureInfo("The Violin", R.drawable.violin));
+    	results.add(new PictureInfo("Miles Davis", R.drawable.miles));
+    	results.add(new PictureInfo("The Piano", R.drawable.piano));
+    	results.add(new PictureInfo("Music Room", R.drawable.musicclub));
 
     	return results;
     }

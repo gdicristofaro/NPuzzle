@@ -141,7 +141,7 @@ public class NPuzzleBoard extends RelativeLayout {
 
 
         // scale the image based on our piece size and draw the resource
-        reflection = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.mipmap.reflection), pieceWidth, pieceHeight, true);
+        reflection = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.reflection), pieceWidth, pieceHeight, true);
 
         //for each piece
         for (int i = 0; i < pieces.length; i++) {

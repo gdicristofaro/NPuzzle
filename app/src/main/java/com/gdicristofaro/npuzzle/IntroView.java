@@ -51,13 +51,13 @@ public class IntroView extends FrameLayout {
         switch (counter)
         {
             case 3:
-                numImage = getResources().getDrawable(R.mipmap.countdown3);
+                numImage = getResources().getDrawable(R.drawable.countdown3, null);
                 break;
             case 2:
-                numImage = getResources().getDrawable(R.mipmap.countdown2);
+                numImage = getResources().getDrawable(R.drawable.countdown2, null);
                 break;
             case 1:
-                numImage = getResources().getDrawable(R.mipmap.countdown1);
+                numImage = getResources().getDrawable(R.drawable.countdown1, null);
                 break;
             case 0:
                 getToGame();

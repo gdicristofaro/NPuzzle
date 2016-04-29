@@ -2,22 +2,22 @@
     <item
         android:id="@+id/preview"
         android:title="Preview"
-        android:icon="@mipmap/menu_preview" />
+        android:icon="@drawable/menu_preview" />
     <item
         android:id="@+id/shuffle"
         android:title="Shuffle"
-        android:icon="@mipmap/menu_mixup" />
+        android:icon="@drawable/menu_mixup" />
     <item
         android:id="@+id/solveIt"
         android:title="Solve It!"
-        android:icon="@mipmap/menu_solveit" />
+        android:icon="@drawable/menu_solveit" />
     <item
         android:id="@+id/another"
         android:title="Pick Another..."
-        android:icon="@mipmap/menu_pickanother" />
+        android:icon="@drawable/menu_pickanother" />
     <item
         android:id="@+id/difficulty"
         android:title="Difficulty..."
-        android:icon="@mipmap/menu_difficulty" />
+        android:icon="@drawable/menu_difficulty" />
 
 </menu>

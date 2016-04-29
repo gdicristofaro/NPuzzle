@@ -39,7 +39,7 @@ import android.widget.RelativeLayout;
 
 
 public class NPuzzle extends Activity {
-	final int defaultImg = R.mipmap.miles;
+	final int defaultImg = R.drawable.miles;
 	
 	NPuzzleBoard board = null;
 	int imgResource = defaultImg;
