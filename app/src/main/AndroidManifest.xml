@@ -6,24 +6,24 @@
         android:icon="@mipmap/ic_launcher"
         android:label="NPuzzle"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ImagePicker">
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity android:name=".ImagePicker"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".NPuzzle"
-            android:label="NPuzzle Board"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="NPuzzle"
+            android:theme="@android:style/Theme.DeviceDefault">
         </activity>
 
         <activity
             android:name=".YouWin"
             android:label="You Win!"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar">
         </activity>
     </application>
 

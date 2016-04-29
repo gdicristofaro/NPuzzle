@@ -36,7 +36,6 @@ public class NPuzzleBoard extends RelativeLayout {
             super(context);
             setImageBitmap(image);
             setOnClickListener(this);
-
             this.CurrentLoc = CurrentLoc;
         }
 
